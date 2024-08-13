@@ -269,6 +269,90 @@ main{
     top: 50px;
 }
 
+.bmi-title{
+    text-align: center;
+    color: white;
+}
+
+.bmi-header{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.bmi-description{
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.5;
+    margin-top: -20px;
+}
+
+
+.bmi-container{
+    background: rgb(34, 34, 34); ;
+    color: white;
+    justify-content: center;
+    gap: 175px;
+    display: flex;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.bmi-container h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+table{
+    border-collapse: collapse;
+    width: 310px;
+    margin-top: 40px;
+}
+
+th, td{
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+tbody{
+    opacity: 0.5;
+}
+
+.calculator-header{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.calculator-description{
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.5;
+    width: 570px;
+}
+
+.calculator-options input{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    height: 48px;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 20px;
+    color: white;
+}
+
+.calculator-options{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+
+#input-5{
+    grid-column: span 2;
+    margin-bottom: 50px;
+}
 
 @media screen and (max-width:576px) {
     .bg{
@@ -403,5 +487,26 @@ main{
         height: 170px;
         top: 325px;
         left: 33px;
+    }
+
+    .bmi-header{
+        font-size: 32px;
+    }
+
+    .bmi-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .bmi-chart h1{
+        font-size: 15px;
+    }
+
+    .calculator-header{
+        font-size: 15px;
+    }
+
+    .calculator-description{
+        max-width: 340px;
     }
 }
