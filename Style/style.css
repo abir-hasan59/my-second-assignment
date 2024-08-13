@@ -223,8 +223,58 @@ main{
 }
 
 
+.extra{
+    width: 1050px;
+    height:410px;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+.extra-container{
+    position: relative;
+    background: rgb(34, 34, 34);
+    border-radius: 18px;
+    display: flex;
+    color: white;
+}
+
+.extra-header{
+    width: 443px;
+    height: 116px;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.extra-title{
+    padding-left: 50px;
+}
+
+.extra-description{
+    font-size: 15px;
+    font-weight: 400;
+    width: 443px;
+    height: 72px;
+    opacity: 0.5;
+}
+
+.extra-btn{
+    margin-bottom: 50px;
+}
+.extra-img{
+    position: absolute;
+    width: 360px;
+    height: 312px;
+    border-radius: 20px;
+    left: 650px;
+    top: 50px;
+}
+
 
 @media screen and (max-width:576px) {
+    .bg{
+        max-width: 100%;
+    }
+    
     nav{
         margin: 20px;
     }
@@ -294,6 +344,10 @@ main{
         margin-top: -100px;
     }
 
+    .habits{
+        max-width: 100%;
+    }
+
     .habits-title .title-header{
         font-size: 32px;
     }
@@ -306,5 +360,48 @@ main{
     .habits-card{
         flex-direction: column;
         align-items: center;
+    }
+
+    .extra{
+        height: 550px;
+        max-width: 100%;
+        margin-left: 28px;
+    }
+
+    .extra-container{
+        position: relative;
+        flex-direction: column;
+        width: 353px;
+        height: 531px;
+    }
+
+    .extra-title{
+        margin-left: -17px;
+    }
+
+    .extra-header{
+        font-size: 32px;
+        width: 287px;
+        height: 96px;
+    }
+
+    .extra-description{
+        width: 287px;
+        height: 96px;
+        margin-top: -30px;
+    }
+
+    .extra-btn{
+        position: static;
+        width: 287px;
+        height: 54px;
+    }
+
+    .extra-img{
+        position: absolute;
+        width: 287px;
+        height: 170px;
+        top: 325px;
+        left: 33px;
     }
 }
