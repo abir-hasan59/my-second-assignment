@@ -56,9 +56,11 @@ nav li a{
     color: white;
     height: 20px;
     width: 20px;
-
 }
 
+#icon{
+    display: none;
+}
 .banner{
     display: flex;
     justify-content: space-between;
@@ -361,6 +363,10 @@ tbody{
     
     nav{
         margin: 20px;
+    }
+
+    #icon{
+        display: block;
     }
     
     .menu{
