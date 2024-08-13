@@ -168,6 +168,59 @@ nav li a{
     opacity: 0.5;
 }
 
+main{
+    background-color: black;
+}
+
+.habits-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.title-header{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.title-description{
+    font-size: 15px;
+    font-weight: 400;
+    width: 670px;
+    opacity: 0.5;
+    margin-top: -30px;
+}
+
+.habits-card{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.card-img{
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-description{
+    text-align: center;
+    width: 230px;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.3;
+    line-height: 18px;
+    margin-top: -10px;
+}
 
 
 
@@ -208,6 +261,7 @@ nav li a{
         margin-top: -200px;
     }
 
+
     .banner-img{
         position: relative;
     }
@@ -238,5 +292,19 @@ nav li a{
 
     .banner-img{
         margin-top: -100px;
+    }
+
+    .habits-title .title-header{
+        font-size: 32px;
+    }
+
+    .habits-title .title-description{
+        width: 315px;
+        margin-top: 1px;
+    }
+
+    .habits-card{
+        flex-direction: column;
+        align-items: center;
     }
 }
