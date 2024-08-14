@@ -356,6 +356,64 @@ tbody{
     margin-bottom: 50px;
 }
 
+.team-header{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.team-description{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.5;
+    width: 670px;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+.team-card-container{
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.team-card{
+    position: relative;
+    padding: 20px 10px 10px 10px;
+}
+
+.team-card-img{
+    width: 326px;
+    height: 272px;
+    border-radius: 18px;
+}
+
+.team-card-header{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    bottom: 50px;
+    left: 20px;
+}
+
+.team-card-description{
+    color: white;
+    position: absolute;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.5;
+    bottom: 30px;
+    left: 20px;
+}
+
 @media screen and (max-width:576px) {
     .bg{
         max-width: 100%;
@@ -401,7 +459,13 @@ tbody{
         margin-top: -200px;
     }
 
+    .btn{
+        padding: 15px 20px;
+    }
 
+    .btn-primary{
+        padding:15px 40px;
+    }
     .banner-img{
         position: relative;
     }
@@ -420,6 +484,8 @@ tbody{
     .header-btn{
         display: flex;
         margin-top: 100px;
+        width: 355px;
+        margin-left: 10px;
     }
 
     #club{
@@ -514,5 +580,17 @@ tbody{
 
     .calculator-description{
         max-width: 340px;
+    }
+
+    .team-header{
+        font-size: 32px;
+    }
+
+    .team-card-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .team-description{
+        max-width: 310px;
     }
 }
