@@ -356,6 +356,10 @@ tbody{
     margin-bottom: 50px;
 }
 
+.team{
+    height: 900px;
+}
+
 .team-header{
     text-align: center;
     color: white;
@@ -376,7 +380,7 @@ tbody{
 
 .team-card-container{
     border-radius: 18px;
-    background: rgba(255, 255, 255, 0.1);
+    background:  rgba(255, 255, 255, 0.1);
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
@@ -414,7 +418,75 @@ tbody{
     left: 20px;
 }
 
+.membership{
+    color: white;
+    display: none;
+}
+
+.membership-header{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.membership-description{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+.footer-container{
+    background-color:rgb(40,36,36);
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 130px;
+}
+
+.footer-header{
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+}
+
+#footer-description{
+    font-size: 15px;
+    font-weight: 400;
+    width: 443px;
+    opacity: 0.5;
+    margin-top: -30px;
+}
+
+.footer-content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.footer-content p{
+    font-size: 23px;
+    font-weight: 400px;
+    opacity: 0.5;
+}
+
+.copyright{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 1060px;
+    border-top:2px solid rgba(255, 255, 255, 0.1);
+    padding: 35px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
 @media screen and (max-width:576px) {
+    
     .bg{
         max-width: 100%;
     }
@@ -582,6 +654,10 @@ tbody{
         max-width: 340px;
     }
 
+    .team{
+        height: 100%;
+    }
+
     .team-header{
         font-size: 32px;
     }
@@ -592,5 +668,19 @@ tbody{
 
     .team-description{
         max-width: 310px;
+    }
+
+    .footer-content{
+        flex-direction: column;
+        margin-left: 20px;
+        gap: 30px;
+    }
+
+    #footer-description{
+        max-width: 320px;
+    }
+
+    .copyright{
+        max-width: 305px;
     }
 }
