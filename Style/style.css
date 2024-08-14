@@ -115,6 +115,7 @@ nav li a{
 .video{
     display: flex;
     align-items: center;
+    text-align: left;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 15px;
     backdrop-filter: blur(20px);
@@ -147,6 +148,7 @@ nav li a{
 
 .free{
     position: absolute;
+    text-align: left;
     align-items: center;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 15px;
@@ -589,10 +591,27 @@ tbody{
         left: 110px;
     }
 
+    .video-num{
+        font-size: 30px;
+    }
+
+    .video-description{
+        font-size: 9.5px;
+    }
+
     .free{
         position: absolute;
         bottom: 420px;
-        left: 200px;
+        left: 190px;
+        max-width: 146px;
+    }
+
+    .free-num{
+        font-size: 30px;
+    }
+
+    .free-description{
+        font-size: 9.5px;
     }
 
     .header-btn{
