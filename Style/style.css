@@ -654,7 +654,6 @@ tbody{
     .extra{
         height: 550px;
         max-width: 100%;
-        margin-left: 28px;
     }
 
     .extra-container{
@@ -662,6 +661,7 @@ tbody{
         flex-direction: column;
         width: 353px;
         height: 531px;
+        margin: 0 auto;
     }
 
     .extra-title{
